@@ -1,0 +1,17 @@
+.logo {
+  width: 160px;
+  /* height: 31px; */
+  /* background: rgba(255,255,255,.2);   */
+  /* margin: 16px 28px 16px 0; */
+  color: white;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
+  /* background: center no-repeat url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY9SqZvyvr0W3Qs5Y6zDY6kTrhtWwEdsU0ed1WEVNKT0jOritqlw");  */
+}
+
+.layout {
+  height: 100%;
+}
