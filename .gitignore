@@ -1,0 +1,14 @@
+*.swp
+
+node_modules/
+.travis.yml
+.sass-cache/
+mods/.sass-cache/
+.cache-loader/
+
+.DS_Store
+
+.idea
+.happypack
+.vscode
+.vs
