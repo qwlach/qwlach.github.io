@@ -5,44 +5,6 @@ import CarouselComponent from "../../components/carousel";
 import { timestampToTime } from "../../utils";
 import "./index.css";
 
-const IMGSRC = [
-  {
-    link: "https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=db097dbddcc8a786a12a4c0e5709c9c7/5bafa40f4bfbfbed5572eb3875f0f736afc31f4a.jpg",
-    alt: "首页",
-    href: "/",
-  },
-  {
-    link: "app/static/hangzhou.jpg",
-    alt: "杭州",
-    href: "/hangzhou",
-  },
-  {
-    link: "app/static/changsha.jpg",
-    alt: "长沙",
-    href: "/changsha"
-
-  },
-  {
-    link: "app/static/wuzhen.jpg",
-    alt: "乌镇",
-    href: "/wuzhen"
-  },
-  {
-    link: "app/static/nanjing.jpg",
-    alt: "南京",
-    href: "/nanjing"
-  },
-  {
-    link: "app/static/xiamen.jpg",
-    alt: "厦门",
-    href: "/xiamen"
-  },
-  {
-    link: "app/static/bengbu.jpg",
-    alt: "蚌埠",
-    href: "/bengbu"
-  },
-];
 const TIME = (new Date("2017/8/26 11:00:00")).getTime()
 
 const SONGSRC = "app/static/music/marry.mp3";
@@ -79,6 +41,7 @@ class HomePage extends Component {
     const { isTranslation } = this.state;
     return (
       <div>
+
         <h2>
           <Row>
             <Col span={24}>
