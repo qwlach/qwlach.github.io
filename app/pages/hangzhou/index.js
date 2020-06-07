@@ -2,63 +2,51 @@ import React, { Component } from "react";
 import { Row, Col } from "antd";
 import AudioPaly from "../../components/audio";
 import CarouselComponent from "../../components/carousel";
-import { 
-  hangzhou,
-  hangzhou1,
-  hangzhou2,
-  hangzhou3,
-  hangzhou4,
-  hangzhou5,
-  hangzhou6,
-  hangzhou7,
-  hangzhou8,
-} from './photo'
 
 const IMGSRC = [
   {
-    // link: "app/static/img/hangzhou.jpg",
-    link: hangzhou,
+    link: "app/static/img/hangzhou.jpg",
     alt: "杭州",
     href: "/hangzhou",
   },
   {
-    link: hangzhou1,
+    link: "app/static/img/hangzhou1.jpg",
     alt: "杭州",
     href: "/hangzhou"
 
   },
   {
-    link: hangzhou2,
+    link: "app/static/img/hangzhou2.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: hangzhou3,
+    link: "app/static/img/hangzhou3.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: hangzhou4,
+    link: "app/static/img/hangzhou4.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: hangzhou5,
+    link: "app/static/img/hangzhou5.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: hangzhou6,
+    link: "app/static/img/hangzhou6.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: hangzhou7,
+    link: "app/static/img/hangzhou7.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: hangzhou8,
+    link: "app/static/img/hangzhou8.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },

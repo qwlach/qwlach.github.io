@@ -2,63 +2,51 @@ import React, { Component } from "react";
 import { Row, Col } from "antd";
 import AudioPaly from "../../components/audio";
 import CarouselComponent from "../../components/carousel";
-import {
-  liyang,
-  liyang1,
-  liyang2,
-  liyang3,
-  liyang4,
-  liyang5,
-  liyang6,
-  liyang7,
-  liyang8,
-} from './photo';
 
 const IMGSRC = [
   {
-    // link: "app/static/img/liyang.jpg",
-    link: liyang,
+    link: "app/static/img/liyang.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: liyang1,
+    link: "app/static/img/liyang1.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: liyang2,
+    link: "app/static/img/liyang2.jpg",
     alt: "溧阳",
     href: "/liyang",
 
   },
   {
-    link: liyang3,
+    link: "app/static/img/liyang3.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: liyang4,
+    link: "app/static/img/liyang4.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: liyang5,
+    link: "app/static/img/liyang5.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: liyang6,
+    link: "app/static/img/liyang6.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: liyang7,
+    link: "app/static/img/liyang7.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: liyang8,
+    link: "app/static/img/liyang8.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
