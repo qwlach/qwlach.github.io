@@ -2,51 +2,33 @@ import React, { Component } from "react";
 import { Row, Col } from "antd";
 import AudioPaly from "../../components/audio";
 import CarouselComponent from "../../components/carousel";
+import {
+  wuzhen,
+  wuzhen1,
+  wuzhen2,
+  wuzhen3,
+} from './photo';
 
 const IMGSRC = [
   {
-    link: "app/static/img/wuzhen.jpg",
+    // link: "app/static/img/wuzhen.jpg",
+    link: wuzhen,
     alt: "乌镇",
     href: "/wuzhen"
   },
   {
-    link: "app/static/img/wuzhen1.jpg",
+    link: wuzhen1,
     alt: "乌镇",
     href: "/wuzhen"
 
   },
   {
-    link: "app/static/img/wuzhen2.jpg",
+    link: wuzhen2,
     alt: "乌镇",
     href: "/wuzhen"
   },
   {
-    link: "app/static/img/wuzhen3.jpg",
-    alt: "乌镇",
-    href: "/wuzhen"
-  },
-  {
-    link: "app/static/img/wuzhen4.jpg",
-    alt: "乌镇",
-    href: "/wuzhen"
-  },
-  {
-    link: "app/static/img/wuzhen5.jpg",
-    alt: "乌镇",
-    href: "/wuzhen"
-  },
-  {
-    link: "app/static/img/wuzhen6.jpg",
-    alt: "乌镇",
-    href: "/wuzhen"
-  },
-  {
-    link: "app/static/img/wuzhen7.jpg",
-    alt: "乌镇",
-    href: "/wuzhen"
-  },
-  {
-    link: "app/static/img/wuzhen8.jpg",
+    link: wuzhen3,
     alt: "乌镇",
     href: "/wuzhen"
   },

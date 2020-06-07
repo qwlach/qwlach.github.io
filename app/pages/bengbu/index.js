@@ -2,45 +2,59 @@ import React, { Component } from "react";
 import { Row, Col } from "antd";
 import AudioPaly from "../../components/audio";
 import CarouselComponent from "../../components/carousel";
+import {
+  bengbu,
+  bengbu1,
+  bengbu2,
+  bengbu3,
+  bengbu4,
+  bengbu5,
+  bengbu6,
+  bengbu7,
+} from './phoho';
 
 const IMGSRC = [
   {
-    link: "app/static/img/bengbu.jpg",
+    // link: "app/static/img/bengbu.jpg",
+    link: bengbu,
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu1.jpg",
+    // link: "app/static/img/bengbu1.jpg",
+    link: bengbu1,
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu2.jpg",
+    // link: "app/static/img/bengbu2.jpg",
+    link: bengbu2,
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu3.jpg",
+    // link: "app/static/img/bengbu3.jpg",
+    link: bengbu3,
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu4.jpg",
+    link: bengbu4,
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu5.jpg",
+    link: bengbu5,
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu6.jpg",
+    link: bengbu6,
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu7.jpg",
+    link: bengbu7,
     alt: "蚌埠",
     href: "/bengbu"
   },

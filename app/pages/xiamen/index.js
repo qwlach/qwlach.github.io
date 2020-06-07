@@ -2,96 +2,111 @@ import React, { Component } from "react";
 import { Row, Col } from "antd";
 import AudioPaly from "../../components/audio";
 import CarouselComponent from "../../components/carousel";
+import {
+  xiamen,
+  xiamen1,
+  xiamen2,
+  xiamen3,
+  xiamen4,
+  xiamen5,
+  xiamen6,
+  xiamen7,
+  xiamen8,
+  xiamen9,
+  xiamen10,
+  xiamen11,
+  xiamen12,
+  xiamen13,
+  xiamen14,
+  xiamen15,
+  xiamen16,
+} from './photo';
 
 const IMGSRC = [
   {
-    link: "app/static/img/xiamen.jpg",
+    // link: "app/static/img/xiamen.jpg",
+    link: xiamen,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen1.jpg",
+    link: xiamen1,
     alt: "厦门",
     href: "/xiamen"
 
   },
   {
-    link: "app/static/img/xiamen2.jpg",
+    link: xiamen2,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen3.jpg",
+    link: xiamen3,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen4.jpg",
+    link: xiamen4,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen5.jpg",
+    link: xiamen5,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen6.jpg",
+    link: xiamen6,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen8.jpg",
+    link: xiamen7,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen9.jpg",
+    link: xiamen8,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen10.jpg",
+    link: xiamen9,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen11.jpg",
+    link: xiamen10,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen12.jpg",
+    link: xiamen11,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen13.jpg",
+    link: xiamen12,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen14.jpg",
+    link: xiamen13,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen15.jpg",
+    link: xiamen14,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen16.jpg",
+    link: xiamen15,
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen17.jpg",
-    alt: "厦门",
-    href: "/xiamen"
-  },
-  {
-    link: "app/static/img/xiamen18.jpg",
+    link: xiamen16,
     alt: "厦门",
     href: "/xiamen"
   },

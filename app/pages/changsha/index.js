@@ -2,51 +2,63 @@ import React, { Component } from "react";
 import { Row, Col } from "antd";
 import AudioPaly from "../../components/audio";
 import CarouselComponent from "../../components/carousel";
+import {
+  changsha,
+  changsha1,
+  changsha2,
+  changsha3,
+  changsha4,
+  changsha5,
+  changsha6,
+  changsha7,
+  changsha8,
+} from './photo';
 
 const IMGSRC = [
   {
-    link: "app/static/img/changsha.jpg",
+    // link: "app/static/img/changsha.jpg",
+    link: changsha,
     alt: "长沙",
     href: "/changsha",
   },
   {
-    link: "app/static/img/changsha1.jpg",
+    link: changsha1,
     alt: "长沙",
     href: "/changsha"
 
   },
   {
-    link: "app/static/img/changsha2.jpg",
+    link: changsha2,
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha3.jpg",
+    link: changsha3,
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha4.jpg",
+    link: changsha4,
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha5.jpg",
+    link: changsha5,
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha6.jpg",
+    link: changsha6,
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha7.jpg",
+    link: changsha7,
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha8.jpg",
+    link: changsha8,
     alt: "长沙",
     href: "/changsha"
   },

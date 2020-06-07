@@ -2,35 +2,44 @@ import React, { Component } from "react";
 import { Row, Col } from "antd";
 import AudioPaly from "../../components/audio";
 import CarouselComponent from "../../components/carousel";
+import {
+  nanjing,
+  nanjing1,
+  nanjing2,
+  nanjing3,
+  nanjing4,
+  nanjing5,
+} from './photo';
 
 const IMGSRC = [
   {
-    link: "app/static/img/nanjing.jpg",
+    // link: "app/static/img/nanjing.jpg",
+    link: nanjing,
     alt: "南京",
     href: "/nanjing"
   },
   {
-    link: "app/static/img/nanjing1.jpg",
+    link: nanjing1,
     alt: "南京",
     href: "/nanjing"
   },
   {
-    link: "app/static/img/nanjing2.jpg",
+    link: nanjing2,
     alt: "南京",
     href: "/nanjing"
   },
   {
-    link: "app/static/img/nanjing3.jpg",
+    link: nanjing3,
     alt: "南京",
     href: "/nanjing"
   },
   {
-    link: "app/static/img/nanjing4.jpg",
+    link: nanjing4,
     alt: "南京",
     href: "/nanjing"
   },
   {
-    link: "app/static/img/nanjing5.jpg",
+    link: nanjing5,
     alt: "南京",
     href: "/nanjing"
   },
