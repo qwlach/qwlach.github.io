@@ -5,54 +5,54 @@ import CarouselComponent from "../../components/carousel";
 
 const IMGSRC = [
   {
-    link: "app/static/img/hangzhou.jpg",
+    link: "../../static/img/hangzhou.jpg",
     alt: "杭州",
     href: "/hangzhou",
   },
   {
-    link: "app/static/img/hangzhou1.jpg",
+    link: "../../static/img/hangzhou1.jpg",
     alt: "杭州",
     href: "/hangzhou"
 
   },
   {
-    link: "app/static/img/hangzhou2.jpg",
+    link: "../../static/img/hangzhou2.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: "app/static/img/hangzhou3.jpg",
+    link: "../../static/img/hangzhou3.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: "app/static/img/hangzhou4.jpg",
+    link: "../../static/img/hangzhou4.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: "app/static/img/hangzhou5.jpg",
+    link: "../../static/img/hangzhou5.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: "app/static/img/hangzhou6.jpg",
+    link: "../../static/img/hangzhou6.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: "app/static/img/hangzhou7.jpg",
+    link: "../../static/img/hangzhou7.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
   {
-    link: "app/static/img/hangzhou8.jpg",
+    link: "../../static/img/hangzhou8.jpg",
     alt: "杭州",
     href: "/hangzhou"
   },
 ];
 
-const SONGSRC = "app/static/music/hangzhou.mp3";
+const SONGSRC = "../../static/music/hangzhou.mp3";
 
 class HangZhou extends Component {
   render() {
