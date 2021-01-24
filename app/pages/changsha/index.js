@@ -5,54 +5,54 @@ import CarouselComponent from "../../components/carousel";
 
 const IMGSRC = [
   {
-    link: "app/static/img/changsha.jpg",
+    link: "../../app/static/img/changsha.jpg",
     alt: "长沙",
     href: "/changsha",
   },
   {
-    link: "app/static/img/changsha1.jpg",
+    link: "../../app/static/img/changsha1.jpg",
     alt: "长沙",
     href: "/changsha"
 
   },
   {
-    link: "app/static/img/changsha2.jpg",
+    link: "../../app/static/img/changsha2.jpg",
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha3.jpg",
+    link: "../../app/static/img/changsha3.jpg",
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha4.jpg",
+    link: "../../app/static/img/changsha4.jpg",
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha5.jpg",
+    link: "../../app/static/img/changsha5.jpg",
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha6.jpg",
+    link: "../../app/static/img/changsha6.jpg",
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha7.jpg",
+    link: "../../app/static/img/changsha7.jpg",
     alt: "长沙",
     href: "/changsha"
   },
   {
-    link: "app/static/img/changsha8.jpg",
+    link: "../../app/static/img/changsha8.jpg",
     alt: "长沙",
     href: "/changsha"
   },
 ];
 
-const SONGSRC = "app/static/music/liangsanbo.mp3";
+const SONGSRC = "../../app/static/music/liangsanbo.mp3";
 
 class ChangSha extends Component {
   render() {

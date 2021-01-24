@@ -5,38 +5,38 @@ import CarouselComponent from "../../components/carousel";
 
 const IMGSRC = [
   {
-    link: "app/static/img/nanjing.jpg",
+    link: "../../app/static/img/nanjing.jpg",
     alt: "南京",
     href: "/nanjing"
   },
   {
-    link: "app/static/img/nanjing1.jpg",
+    link: "../../app/static/img/nanjing1.jpg",
     alt: "南京",
     href: "/nanjing"
   },
   {
-    link: "app/static/img/nanjing2.jpg",
+    link: "../../app/static/img/nanjing2.jpg",
     alt: "南京",
     href: "/nanjing"
   },
   {
-    link: "app/static/img/nanjing4.jpg",
+    link: "../../app/static/img/nanjing4.jpg",
     alt: "南京",
     href: "/nanjing"
   },
   {
-    link: "app/static/img/nanjing5.jpg",
+    link: "../../app/static/img/nanjing5.jpg",
     alt: "南京",
     href: "/nanjing"
   },
   {
-    link: "app/static/img/nanjing6.jpg",
+    link: "../../app/static/img/nanjing6.jpg",
     alt: "南京",
     href: "/nanjing"
   },
 ];
 
-const SONGSRC = "app/static/music/travel.mp3";
+const SONGSRC = "../../app/static/music/travel.mp3";
 
 class NanJing extends Component {
   render() {

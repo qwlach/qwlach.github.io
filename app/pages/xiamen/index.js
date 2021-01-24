@@ -6,94 +6,94 @@ import CarouselComponent from "../../components/carousel";
 
 const IMGSRC = [
   {
-    link: "app/static/img/xiamen.jpg",
+    link: "../../app/static/img/xiamen.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen1.jpg",
+    link: "../../app/static/img/xiamen1.jpg",
     alt: "厦门",
     href: "/xiamen"
 
   },
   {
-    link: "app/static/img/xiamen2.jpg",
+    link: "../../app/static/img/xiamen2.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen3.jpg",
+    link: "../../app/static/img/xiamen3.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen4.jpg",
+    link: "../../app/static/img/xiamen4.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen5.jpg",
+    link: "../../app/static/img/xiamen5.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen6.jpg",
+    link: "../../app/static/img/xiamen6.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen8.jpg",
+    link: "../../app/static/img/xiamen8.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen9.jpg",
+    link: "../../app/static/img/xiamen9.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen10.jpg",
+    link: "../../app/static/img/xiamen10.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen11.jpg",
+    link: "../../app/static/img/xiamen11.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen12.jpg",
+    link: "../../app/static/img/xiamen12.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen13.jpg",
+    link: "../../app/static/img/xiamen13.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen14.jpg",
+    link: "../../app/static/img/xiamen14.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen15.jpg",
+    link: "../../app/static/img/xiamen15.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen16.jpg",
+    link: "../../app/static/img/xiamen16.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
   {
-    link: "app/static/img/xiamen17.jpg",
+    link: "../../app/static/img/xiamen17.jpg",
     alt: "厦门",
     href: "/xiamen"
   },
 ];
 
-const SONGSRC = "app/static/music/zuolianjia.mp3";
+const SONGSRC = "../../app/static/music/zuolianjia.mp3";
 
 class XiaMen extends Component {
   render() {

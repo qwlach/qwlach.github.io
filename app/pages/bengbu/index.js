@@ -5,48 +5,48 @@ import CarouselComponent from "../../components/carousel";
 
 const IMGSRC = [
   {
-    link: "app/static/img/bengbu.jpg",
+    link: "../../app/static/img/bengbu.jpg",
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu1.jpg",
+    link: "../../app/static/img/bengbu1.jpg",
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu2.jpg",
+    link: "../../app/static/img/bengbu2.jpg",
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu3.jpg",
+    link: "../../app/static/img/bengbu3.jpg",
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu4.jpg",
+    link: "../../app/static/img/bengbu4.jpg",
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu5.jpg",
+    link: "../../app/static/img/bengbu5.jpg",
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    llink: "app/static/img/bengbu6.jpg",
+    llink: "../../app/static/img/bengbu6.jpg",
     alt: "蚌埠",
     href: "/bengbu"
   },
   {
-    link: "app/static/img/bengbu7.jpg",
+    link: "../../app/static/img/bengbu7.jpg",
     alt: "蚌埠",
     href: "/bengbu"
   },
 ];
 
-const SONGSRC = "app/static/music/wanghouyusheng.mp3";
+const SONGSRC = "../../app/static/music/wanghouyusheng.mp3";
 
 class BengBu extends Component {
   render() {

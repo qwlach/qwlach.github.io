@@ -7,7 +7,7 @@ import "./index.css";
 
 const TIME = (new Date("2017/8/26 11:00:00")).getTime()
 
-const SONGSRC = "app/static/music/marry.mp3";
+const SONGSRC = "../../app/static/music/marry.mp3";
 
 class HomePage extends Component {
   constructor(props) {

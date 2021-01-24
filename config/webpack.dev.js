@@ -4,11 +4,14 @@ const baseWebpackConfig = require('./webpack.base');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
+const DIST_PATH = path.resolve(__dirname, '../dist');
 module.exports = merge(baseWebpackConfig, {
   mode: 'development',
-  output: {
-    filename: "js/[name].[hash:16].js",
-  },
+  // output: {
+  //   // filename: "js/[name].[chunkhash:16].js",
+  //   // path: DIST_PATH,
+  //   // publicPath: "/"
+  // },
   module: {
     rules: [
       {

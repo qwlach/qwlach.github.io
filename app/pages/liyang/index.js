@@ -5,54 +5,54 @@ import CarouselComponent from "../../components/carousel";
 
 const IMGSRC = [
   {
-    link: "app/static/img/liyang.jpg",
+    link: "../../app/static/img/liyang.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: "app/static/img/liyang1.jpg",
+    link: "../../app/static/img/liyang1.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: "app/static/img/liyang2.jpg",
+    link: "../../app/static/img/liyang2.jpg",
     alt: "溧阳",
     href: "/liyang",
 
   },
   {
-    link: "app/static/img/liyang3.jpg",
+    link: "../../app/static/img/liyang3.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: "app/static/img/liyang4.jpg",
+    link: "../../app/static/img/liyang4.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: "app/static/img/liyang5.jpg",
+    link: "../../app/static/img/liyang5.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: "app/static/img/liyang6.jpg",
+    link: "../../app/static/img/liyang6.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: "app/static/img/liyang7.jpg",
+    link: "../../app/static/img/liyang7.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
   {
-    link: "app/static/img/liyang8.jpg",
+    link: "../../app/static/img/liyang8.jpg",
     alt: "溧阳",
     href: "/liyang",
   },
 ];
 
-const SONGSRC = "app/static/music/xiaojiuwo.mp3";
+const SONGSRC = "../../app/static/music/xiaojiuwo.mp3";
 
 class LiYang extends Component {
   render() {

@@ -5,29 +5,29 @@ import CarouselComponent from "../../components/carousel";
 
 const IMGSRC = [
   {
-    link: "app/static/img/wuzhen.jpg",
+    link: "../../app/static/img/wuzhen.jpg",
     alt: "乌镇",
     href: "/wuzhen"
   },
   {
-    link: "app/static/img/wuzhen1.jpg",
+    link: "../../app/static/img/wuzhen1.jpg",
     alt: "乌镇",
     href: "/wuzhen"
 
   },
   {
-    link: "app/static/img/wuzhen2.jpg",
+    link: "../../app/static/img/wuzhen2.jpg",
     alt: "乌镇",
     href: "/wuzhen"
   },
   {
-    link: "app/static/img/wuzhen3.jpg",
+    link: "../../app/static/img/wuzhen3.jpg",
     alt: "乌镇",
     href: "/wuzhen"
   },
 ];
 
-const SONGSRC = "app/static/music/waityou.mp3";
+const SONGSRC = "../../app/static/music/waityou.mp3";
 
 class WuZhen extends Component {
   render() {
